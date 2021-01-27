@@ -1,0 +1,94 @@
+h2 {
+	margin:5px;
+}
+  
+input[type=text] {
+	margin:10px;
+}
+  
+input[type=button] {
+	margin:10px;
+}  
+
+.containers {
+	white-space: nowrap;
+	margin-top: 5%;
+}
+
+.container {
+	width: 400px;
+	margin: 0 4px;
+    margin-left: 4px;
+    margin-top: 80px;
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+	white-space: normal;
+	background-color: #86bde8;
+	max-height: 350px;
+	overflow-y: auto;
+	border-radius: 5px;
+}
+
+.tasks, tasksPublic { 
+	list-style-type: none; 
+	margin:0; 
+	padding:2px; 
+	border-radius: 5px;
+	white-space: normal;
+}
+
+.tasksPublic { 
+	list-style-type: none; 
+	margin:0; 
+	padding:2px; 
+	min-height:30px; 
+	border-radius: 5px;
+	white-space: normal;
+}
+
+.tasks li ul li { 
+	margin: 3px 3px 3px 3px; 
+	padding: 0.4em; 
+	padding-left: 1.5em; 
+	font-size: 1.4em; 
+	height: 18px;
+	white-space: normal;
+}
+
+.tasksPublic li ul li { 
+	margin: 3px 3px 3px 3px; 
+	padding: 0.4em; 
+	padding-left: 1.5em; 
+	font-size: 1.4em; 
+	height: 18px;
+	white-space: normal;
+}
+ 
+.task {
+	background-color:white;
+	border-radius:3px;
+	white-space: normal;
+}
+
+.modal {
+	white-space: normal;
+}
+
+.buttons button {
+	 margin-left:10px;
+}
+
+#addTaksButton {
+	margin-top: 10px;
+}
+
+.formsInvite {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+#assign-update {
+	margin-left: 7px;
+}
